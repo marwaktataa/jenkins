@@ -1,4 +1,4 @@
-public class SwapNumbers {
+public class swapNumbers {
 
     public static void main(String[] args) {
 
