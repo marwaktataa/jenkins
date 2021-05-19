@@ -23,4 +23,4 @@ ssh -o StrictHostKeyChecking=no -i $PATH_SECRET_KEY $MACHINE_DESTINATION 'sudo c
 #On execute le fichier helloWorld.class
 ssh -o StrictHostKeyChecking=no -i $PATH_SECRET_KEY $MACHINE_DESTINATION 'sudo cd /app && sudo java helloWorld'
 
-Envoyer un message dans #aws-général
+
