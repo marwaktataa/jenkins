@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo mkdir -p /app
+sudo mkdir -p app
 chmod 777 /app
-cp helloWorld.class /app
+cp helloWorld.class ./app
 cd /app
 java helloWorld
 
