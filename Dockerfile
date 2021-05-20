@@ -1,4 +1,4 @@
 FROM openjdk:latest
-mkdir /app
+RUN mkdir /app
 COPY helloWord.class /app
-cmd java /app/helloWord.class
+cmd java helloWord
